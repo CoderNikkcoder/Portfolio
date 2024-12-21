@@ -59,8 +59,8 @@ menuIcon.onclick=()=>{
     const bodyMessage=`Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${message.value}`;
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "wccplaybygamer@gmail.com",
-        Password : "1D2356A126389C57818C1219780DFDF490D0",
+        Username : "",
+        Password : "",
         To : 'wccplaybygamer@gmail.com',
         From : "wccplaybygamer@gmail.com",
         Subject : subject.value,
